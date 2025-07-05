@@ -55,5 +55,13 @@ p {
         display: flex;
         column-gap: 2rem;
     }
+    aside {
+        flex: 1; /* factor de crecimiento 1 */ 
+    }
+
+    article {
+        flex: 3; /* factor de crecimiento 3 es decir por cada "pixel" que tome aside article tomara 3*/
+    }
 }
+ 
 
